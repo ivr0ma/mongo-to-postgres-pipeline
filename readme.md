@@ -1,1 +1,5 @@
-# mongo-to-postgres-pipeline
+# Mongo to PostgreSQL Data Pipeline
+
+### Описание проекта
+
+Этот репозиторий содержит решение для генерации данных в MongoDB, их репликации в PostgreSQL с использованием Apache Airflow, а также построения аналитических витрин на основе реплицированных данных.
