@@ -1,7 +1,0 @@
-FROM postgres:latest
-
-# Копируем конфигурацию PostgreSQL
-COPY config/postgresql.conf /etc/postgresql/postgresql.conf
-
-# Настройка PostgreSQL на использование пользовательской конфигурации
-CMD ["postgres", "-c", "config_file=/etc/postgresql/postgresql.conf"]
